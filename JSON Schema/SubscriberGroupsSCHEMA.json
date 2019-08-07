@@ -1,0 +1,24 @@
+{
+	"Groups": [
+		{
+			"Name": "Name of the group, also the unique identifier for the 'group' parameter in Websites.json",
+			"Subscribers": [
+				{
+					"Name": "Name of a subscriber",
+					"Surname": "Surname of a subscriber",
+					"Email": "Email of a subscriber"
+				}
+			]
+		},
+		{
+			"Name": "ExampleGroup",
+			"Subscribers": [
+				{
+					"Name": "ExapleName",
+					"Surname": "ExapleSurname",
+					"Email": "ExapleEmail"
+				}
+			]
+		}
+	]
+}

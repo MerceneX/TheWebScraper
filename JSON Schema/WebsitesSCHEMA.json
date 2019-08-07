@@ -1,0 +1,44 @@
+{
+	"Websites": {
+		"scrapable": [
+			{
+				"name": "Name of the website, displayed for the convenience of the user",
+				"url": "URL of the monitored website, currently the way to check for adding and removing sites",
+				"searchFor": "CSS Selector for which element is to be monitored",
+				"group": "Which group is to receive the notification of changes",
+				"loginSite": "ID of the site in which to login before trying to aquire data from the site for monitoring, enter 0 if there is no need of logging in first",
+				"subject": "Subject of the mail to be sent",
+				"message": "Message which is to be sent in the mail, the URL is enter automatically at the end of this string in a new line."
+			},
+			{
+				"name": "Example Title",
+				"url": "wwww.example-url.com",
+				"searchFor": "#exampleID",
+				"group": "ExampleGroup",
+				"loginSite": 3,
+				"subject": "Example subject of mail",
+				"message": "Example message of mail"
+			}
+		],
+		"login": [
+			{
+				"id": "Id of the login website",
+				"name": "Name of the login website",
+				"url": "URL of the login website",
+				"payload": {
+					"": "Data usually sent from form as a post request to log a user in"
+				}
+			},
+			{
+				"id": 3,
+				"name": "Example Title Login",
+				"url": "www.example-url.com/login",
+				"payload": {
+					"paramName1": "exampleUsername",
+					"paramName2": "examplePassword",
+					"paramName3": "exampleExtraParam"
+				}
+			}
+		]
+	}
+}
